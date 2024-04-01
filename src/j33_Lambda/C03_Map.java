@@ -47,6 +47,5 @@ public class C03_Map {
                 .map(t -> (int) Math.pow(t, 2))
                 .forEach(SeedMethods::intYazdir);
         //map()--> Stream içerisindeki elemanları başka tiplere dönüştürmek veya üzerlerinde işlem yapmak (update) için map kullanılmaktadır.
-
     }
 }
